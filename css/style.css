@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--primary-color) ;
+    font-family: 
+}
+
+header h1 {
+    font-family: 'Pacifico', cursive;
+}
+
+p {
+    font-family: 'Vollkorn', serif;
+}
+
+:root {
+    --primary-color: #5786D3; 
+    --secondary-color: 
+    --tertiary-color:
+
+}
