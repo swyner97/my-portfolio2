@@ -696,8 +696,21 @@ header h1 a{
    font-size: 15px;;
  }
 
+ .folio-work.other-pages {
+   display: grid;
+   width: 30em;
+ }
  .folio-button{
    width: inherit;
+   width: 20%;
+   height: auto;
  }
+
+ .page-header {
+   width: 30em;
+ }
+footer{
+  width: 30em;
+}
  }
 }
