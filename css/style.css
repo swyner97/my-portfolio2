@@ -595,4 +595,64 @@ header h1 a{
  .intro p {
    font-size: 15px;
  }
+
+ .dropdown {
+   height: 100px;
+   width: 150px;
+   margin-left: -80px;
+ }
+
+ .dropbtn {
+   margin-left: -170px;
+ }
+
+ .second {
+  display: grid;
+  align-items: center;
+  justify-content: start;
+  justify-items: center;
+ }
+
+ .portfolio {
+   width: 15em;
+ }
+
+ .portfolio h2 {
+   font-size: 25px;
+ }
+
+ .portfolio p {
+   font-size: 15px;
+   padding-top: 60px;
+ }
+
+ .folio-content button {
+   width: 5em;
+   height: 2em;
+ }
+
+ button a {
+   font-size: 15px;
+ }
+
+ .blog{
+   width:15em;
+ }
+
+ .blog h2 {
+   font-size: 25px;
+ }
+
+ .blog p {
+   font-size: 15px;
+ }
+
+ .contact-info h3{
+  font-size: 25px;
+ }
+
+ .contact-buttons a button img {
+   width:2em;
+   height: 2em;
+ }
 }
