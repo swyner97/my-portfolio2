@@ -450,3 +450,149 @@ header h1 a{
   transition: all .4s ease;
 }
   
+@media screen and (max-width: 980px) {
+  .portfolio {
+    margin-left: 100px;
+    width: 50em; 
+  }
+
+  .blog {
+    margin-right: 150px;
+    width: 50em;
+  }
+
+  .contact-info h3 {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+
+  }
+
+  .contact-buttons {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .intro {
+    margin-top: 5em;
+  }
+
+  .dropbtn {
+    margin-top: 3em;
+  }
+
+  #folio-page {
+    width: 50%;
+  }
+
+  .sarah-content p{
+    margin-left: -100px;
+  }
+
+  .sarah {
+    height: fit-content;
+  }
+
+  .folio-work.other-pages{
+    display:flex;
+    flex-wrap: wrap;
+    height: fit-content;
+  }
+
+  @media screen and (max-width: 750px) {
+    .second{
+      display: grid; 
+    }
+
+    .portfolio {
+      width: 30em;
+    }
+
+    .blog {
+      width: 30em;
+    }
+
+    .sarah {
+      display: grid;
+      justify-content: center;
+    }
+
+    #sarah-img {
+      float: left;
+      margin-left: 90px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+  header {
+    width: 30em;
+  }
+  .intro {
+    width: 20em;
+    height: 20em;
+    padding: 10px;
+  }
+
+  .intro h2 {
+    font-size: 25px;
+  }
+
+  .second {
+    width: 35em;
+  
+  }
+
+  .portfolio {
+    width: 25em;
+    margin-left: 0;
+  }
+
+  .blog {
+    margin-right: 10px;
+    width: 25em;
+  }
+
+  #folio-page {
+    height: 12em; 
+    width: fit-content;
+  }
+
+  .dropbtn {
+    margin-top: 10px;
+  }
+
+  .sarah-content {
+    padding-right: 100px;
+  }
+}
+
+@media screen and (max-width: 270px) {
+  header h1 {
+    font-size: 25px;
+  }
+
+ .dropdown button {
+   font-size: 20px;
+ }
+
+ .intro {
+   width:12em;
+   height: 15em;
+   margin-left:-20em;
+ }
+
+ .intro h2{
+   font-size: 15px;
+ }
+
+ .intro span {
+   font-size: 15px;
+ }
+
+ .intro p {
+   font-size: 15px;
+ }
+}
