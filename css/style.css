@@ -52,6 +52,11 @@ p {
   width: 25%;
 }
 
+header h1 a{
+  text-decoration: none;
+  color: whitesmoke;
+} 
+
 .page-header  {
     background-color: #6B83A9;
 }
@@ -183,6 +188,40 @@ p {
 
 .intro span{
     font-size: 30px;
+}
+/* about me end */
+
+/* blog start */
+
+.blog-posts{
+  background-color:#6B83A9 ;
+  height: 20em;
+}
+.blog-posts h1{
+  font-family: 'Pacifico', cursive;
+  color: whitesmoke;
+  font-weight: 100;
+  font-size: 70px;
+  padding-left: 20px;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.blog-posts p {
+  font-family: 'Vollkorn', serif;
+  font-size: 20px;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+/* blog end */
+
+.second button a{
+  text-decoration: none;
+  color:#6B83A9;
 }
 
 .dropdown {
