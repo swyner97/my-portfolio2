@@ -655,4 +655,49 @@ header h1 a{
    width:2em;
    height: 2em;
  }
+
+ #sarah-img {
+  height: 16em;
+  width: auto;
+ }
+
+ .sarah-content p {
+   font-size: 15px;
+   margin-left: -70px;
+   width: 15em;
+ }
+
+ .dropbtn {
+   margin-left: 30px;
+   font-size: 15px;
+ }
+
+ .blog-posts h1 {
+   font-size: 30px;
+ }
+
+ .blog-posts p {
+   font-size: 15px;
+ }
+
+ h1 a {
+   margin-left:-10px;
+ }
+
+ #folio-page {
+   width: auto;
+ }
+
+ .page-header h1{
+  font-size: 30px;
+ }
+
+ .page-header p {
+   font-size: 15px;;
+ }
+
+ .folio-button{
+   width: inherit;
+ }
+ }
 }
