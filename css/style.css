@@ -11,8 +11,9 @@ body {
 header {
     background-color: var(--primary-color) ;
     font-family: 'Vollkorn', serif;
-    padding-bottom: 10%;
     margin-left: 10%;
+    width: 95%;
+    
 }
 
 header h1 {
@@ -135,10 +136,15 @@ header h1 a{
 }
 
 #sarah-img {
-  float: right;
   margin-right: 10em;
   margin-top: 50px;
-  padding-left: 50px;
+  
+}
+
+#img-container {
+  display: flex;
+  justify-content: flex-end;
+  /* position:absolute; */
 }
 
 .sarah-content {
@@ -150,15 +156,14 @@ header h1 a{
   font-size: 20px;
   line-height: 1.5;
   letter-spacing: 1px;
-
+  display: flex;
+  margin-top: -30em;
+  position: relative;
+  display: inline-block;
 }
 
 .sarah-content span {
   font-weight: bold;
-}
-
-.sarah-content p {
-  margin-top: -100px;
 }
 
 
@@ -711,6 +716,14 @@ header h1 a{
  }
 footer{
   width: 30em;
+}
+
+.contact-info{
+  display: flex;
+  justify-content: center;
+}
+.contact-info h3 {
+  font-size: 25px;
 }
  }
 }
