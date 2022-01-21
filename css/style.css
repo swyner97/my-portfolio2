@@ -111,14 +111,19 @@ header h1 a{
 }
 
 .folio-work.other-pages {
-  background-color:#6B83A9;
-  height:50em;
+  background-color: #6B83A9;
+  height: 50em;
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
-
+#taskinator button a img {
+  width: 450px;
+  height: 250px;
+  border-radius: 1%;
 }
 
 /* portfolio page end */
@@ -128,38 +133,32 @@ header h1 a{
 .sarah {
   background-color: #6B83A9;
   height:50em;
-}
-
-.sarah img{
-  width: 400px;
-
+  height: fit-content;
+  width: fit-content;
 }
 
 #sarah-img {
   margin-right: 10em;
   margin-top: 50px;
+  width: 400px;
+  max-height:35em;
   
 }
 
 #img-container {
   display: flex;
-  justify-content: flex-end;
-  /* position:absolute; */
+  flex-direction: row-reverse;
 }
 
 .sarah-content {
   color:whitesmoke;
   font-family: 'Vollkorn', serif ;
-  padding: 10em;
-  max-width: 70em;
-  text-align: justify;
   font-size: 20px;
   line-height: 1.5;
   letter-spacing: 1px;
   display: flex;
-  margin-top: -30em;
-  position: relative;
-  display: inline-block;
+  padding: 3em;
+  
 }
 
 .sarah-content span {
@@ -495,15 +494,14 @@ header h1 a{
     margin-left: -100px;
   }
 
-  .sarah {
-    height: fit-content;
-  }
-
   .folio-work.other-pages{
     display:flex;
     flex-wrap: wrap;
     height: fit-content;
   }
+
+  }
+
 
   @media screen and (max-width: 750px) {
     .second{
