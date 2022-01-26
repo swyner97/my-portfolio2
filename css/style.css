@@ -145,11 +145,6 @@ header h1 a{
   
 }
 
-#img-container {
-  display: flex;
-  flex-direction: row-reverse;
-}
-
 .sarah-content {
   color:whitesmoke;
   font-family: 'Vollkorn', serif ;
