@@ -24,6 +24,15 @@ header h1 {
     padding-left: 20px;
     
 }
+.index {
+  height: 45em;
+}
+
+h1 a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
 
 p {
     font-family: 'Vollkorn', serif;
@@ -36,16 +45,31 @@ p {
 
 }
 
+#programming {
+  width:450px;
+  height: 400px;
+  background-color: #5786D3;
+  top:5em;
+  left: 15em;
+}
+
 /* portfolio page */
 
-.position-cont {
+/* .position-cont {
     display: flex;
     justify-content: center;
+} */
+
+.position-cont {
+  left: -15%;
+  top: 4em;
+
 }
 
 .position-cont.other-pages {
   width: 130px;
   padding: 0;
+
 }
 
 #folio-page {
@@ -100,6 +124,17 @@ header h1 a{
   border-radius: 1%;
 }
 
+#git-it-done button img {
+  width:450px;
+  height: 250px;
+  border-radius: 1%;
+}
+
+#work-day-scheduler button img {
+  width:450px;
+  height: 250px;
+  border-radius: 1%;
+}
 
 .folio-work.other-pages button {
   border: none;
@@ -171,6 +206,8 @@ header h1 a{
     border-bottom-width: 3px;
     height: 27.5em;
     width: 34.375em;
+    right: -60em;
+    bottom: 20em;
 }
 
 .intro h2 {
