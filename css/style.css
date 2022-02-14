@@ -136,6 +136,12 @@ header h1 a{
   border-radius: 1%;
 }
 
+#for-st-cast button img {
+  width:450px;
+  height: 250px;
+  border-radius: 1%;
+}
+
 .folio-work.other-pages button {
   border: none;
   background-color:#6B83A9;
@@ -756,4 +762,3 @@ footer{
   font-size: 25px;
 }
  }
-}
