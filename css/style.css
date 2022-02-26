@@ -32,6 +32,25 @@ p {
   
 }
 
+/* Header */
+ 
+.about-me {
+  text-align: justify;
+  width: 40%;
+  margin-top: 5%;
+  font-size: 20px;
+}
+
+.hero-header {
+  text-align: center;
+}
+
+span {
+  color: rgb(216, 27, 122);
+  font-family: 'Inconsolata', monospace;
+}
+/* Header End */
+
 /* Projects Section */
 .projects {
   
@@ -76,6 +95,12 @@ img[title]:hover::after{
 /* Skills End */
 
 /* Contact Me*/
+
+.contact-logo, button {
+  background-color: #141527;
+
+}
+
 .form {
  padding: 2em;
  width: 30%;
@@ -97,19 +122,17 @@ img[title]:hover::after{
 
 /* Footer */
 
-.contact-logo, button {
-  background-color: #141527;
-  margin: 0, 100px, 0, 100px
-}
-
 .contact-logo {
   margin-left: 20px;
   margin-right: 20px;
+  width: 40%;
 }
 
 .socials-header {
   text-align: center;
   margin-bottom: 20px;
+  color: rgb(216, 27, 122);
+  font-family: 'Inconsolata', monospace;
 }
 
 
