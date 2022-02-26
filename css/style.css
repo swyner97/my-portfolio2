@@ -1,764 +1,117 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 
-body {
-    background-color:#DDE4EE;
+.hero, .skills, .socials {
+  background-color: #141527;
 }
 
-header {
-    background-color: var(--primary-color) ;
-    font-family: 'Vollkorn', serif;
-    margin-left: 10%;
-    width: 95%;
-    
+.projects, .contact {
+  background-color: #292A4A;
+
 }
 
-header h1 {
-    font-family: 'Pacifico', cursive;
-    color: whitesmoke;
-    font-weight: 100;
-    font-size: 50px;
-    padding-left: 20px;
-    
-}
-.index {
-  height: 45em;
+h1, h2, h3, h4, h5, h6, p {
+  color: white;
 }
 
-h1 a {
-  text-decoration: none;
-  color: whitesmoke;
+h1 {
+  font-family: 'Lato', sans-serif;
 }
 
+h2 {
+  font-family: 'Inconsolata', monospace;
+  
+}
 
 p {
-    font-family: 'Vollkorn', serif;
+  margin: 50%;
+  
 }
 
-:root {
-    --primary-color: #5786D3; 
-    --secondary-color: 
-    --tertiary-color:
-
+/* Projects Section */
+.projects {
+  
+ 
 }
 
-#programming {
-  width:450px;
-  height: 400px;
-  background-color: #5786D3;
-  top:5em;
-  left: 15em;
+.project img {
+  border-radius: 5%;
+  position: relative;
+  right: 0;
 }
 
-/* portfolio page */
-
-/* .position-cont {
-    display: flex;
-    justify-content: center;
-} */
-
-.position-cont {
-  left: -15%;
-  top: 4em;
+.project{
+  display: flex;
+  justify-content:center;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  padding: 10px;
 
 }
 
-.position-cont.other-pages {
-  width: 130px;
-  padding: 0;
-
-}
-
-#folio-page {
+.projects h2 {
   padding: 40px;
-  width: 25%;
-}
-
-header h1 a{
-  text-decoration: none;
-  color: whitesmoke;
-} 
-
-.page-header  {
-    background-color: #6B83A9;
-}
-
-.page-header h1 {
-  font-family: 'Pacifico', cursive;
-  color: whitesmoke;
-  font-weight: 100;
-  font-size: 70px;
-  padding-left: 20px;
-  display: flex;
-  justify-content: center;
-  padding-top: 30px;
-}
-
-.page-header p {
-  font-size: 20px;
-  color: whitesmoke;
-  font-family: 'Vollkorn', serif;
-  display: flex;
-  justify-content: center;
-  word-spacing: 5px;
-}
-
-#run-buddy button img {
-  width:450px;
-  height: 250px;
-  border-radius: 1%;
-}
-
-#horiseon button img {
-  width:450px;
-  height: 250px;
-  border-radius: 1%;
-}
-
-#password-generator button img {
-  width:450px;
-  height: 250px;
-  border-radius: 1%;
-}
-
-#git-it-done button img {
-  width:450px;
-  height: 250px;
-  border-radius: 1%;
-}
-
-#work-day-scheduler button img {
-  width:450px;
-  height: 250px;
-  border-radius: 1%;
-}
-
-#for-st-cast button img {
-  width:450px;
-  height: 250px;
-  border-radius: 1%;
-}
-
-.folio-work.other-pages button {
-  border: none;
-  background-color:#6B83A9;
-  margin: 50px;
-  padding: 1px;
-  border-radius: 1%;
-  box-shadow: 0px 0px 15px #50627f, 0px 0px 15px #50627f;
-}
-
-.folio-work.other-pages {
-  background-color: #6B83A9;
-  height: 50em;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-#taskinator button a img {
-  width: 450px;
-  height: 250px;
-  border-radius: 1%;
-}
-
-/* portfolio page end */
-
-/* about me page */
-
-.sarah {
-  background-color: #6B83A9;
-  height:50em;
-  height: fit-content;
-  width: fit-content;
-}
-
-#sarah-img {
-  margin-right: 10em;
-  margin-top: 50px;
-  width: 400px;
-  max-height:35em;
-  
-}
-
-.sarah-content {
-  color:whitesmoke;
-  font-family: 'Vollkorn', serif ;
-  font-size: 20px;
-  line-height: 1.5;
-  letter-spacing: 1px;
-  display: flex;
-  padding: 3em;
-  
-}
-
-.sarah-content span {
-  font-weight: bold;
 }
 
 
-.intro {
-    border-style: solid;
-    border-color: #365484;
-    border-width: 1px;
-    border-radius: 1%;
-    padding: 60px;
-    border-left-width: 3px;
-    border-bottom-width: 3px;
-    height: 27.5em;
-    width: 34.375em;
-    right: -60em;
-    bottom: 20em;
+
+/* Projects Section End */
+
+/* Skills */
+.skill-badge {
+  padding: 2%;
 }
 
-.intro h2 {
-    font-size: 50px;
-    color:whitesmoke;
-    text-align:left;
+
+
+img[title]:hover::after{
+  content: attr(title);
+  position: absolute;
 }
 
-.intro p {
-    color: whitesmoke;
-    padding-top: 20px;
-    font-size: 20px;
+/* Skills End */
+
+/* Contact Me*/
+.form {
+ padding: 2em;
+ width: 30%;
 }
 
-.intro span{
-    font-size: 30px;
-}
-/* about me end */
-
-/* blog start */
-
-.blog-posts{
-  background-color:#6B83A9 ;
-  height: 20em;
-}
-.blog-posts h1{
-  font-family: 'Pacifico', cursive;
-  color: whitesmoke;
-  font-weight: 100;
-  font-size: 70px;
-  padding-left: 20px;
-  display: flex;
-  justify-content: center;
-  padding-top: 30px;
+.input, .textarea {
+  margin-bottom: 5px;
 }
 
-.blog-posts p {
-  font-family: 'Vollkorn', serif;
-  font-size: 20px;
-  color: whitesmoke;
-  display: flex;
-  justify-content: center;
-  padding-top: 10px;
-  padding-left: 20px;
-}
-/* blog end */
 
-.second button a{
-  text-decoration: none;
-  color:#6B83A9;
+.contact-header{
+  position: relative;
 }
 
-.dropdown {
-    display: inline-block;
-    margin-right: 5%;
-
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 140px;
-    z-index: 1;
-    box-shadow: none;
-
-  }
-  
-  .dropdown-content a {
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    color: #DDE4EE;
-    
-  }
-
-  .dropdown-content a {
-    background-color: var(--primary-color); 
-    border-bottom: whitesmoke;
-    border-bottom-width: 1px;
-    color: whitesmoke;
-    border-bottom-style: solid;
-  }
-  
-  .dropdown-content a:hover {
-      background-color: var(--primary-color);
-      text-shadow: none;
-      color: #D3A457;
-      font-size: 20px;
-      font-weight:bold;
-      transition: all .4s ease;
-    }
-  
-  .dropdown:hover .dropdown-content {
-      display: block;
-    }
-  
-  .dropdown:hover .dropbtn {
-      font-style: bold;
-  }
-
-  .hover {
-    background-color: var(--primary-color);
-    text-shadow: none;
-    color: #D3A457;
-    font-size: 20px;
-    font-weight:bold;
-    transition: all .4s ease;
-  }
-
-
-  .dropdown button {
-    font-family: 'Vollkorn', serif;
-    background-color: var(--primary-color);
-    font-size: 25px;
-    color: whitesmoke;
-    border-left:transparent;
-    border-right: transparent;
-    border-top:transparent;
-    border-bottom: solid;
-    border-bottom-width: 2px;
-    padding-bottom: 0px;
-  }
-  
-  .second {
-    background-color: #6B83A9;
-    height: 50em;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    font-family: 'Vollkorn', serif;
-  }
-
-   .blog {
-    border: solid;
-    border-color: whitesmoke;
-    width: 30em;
-    height: 20em;
-    float: right;
-    margin-right: 27%;
-    background-color: #6B83A9;
-    margin-top: 10%;
-  }
-
-  .blog {
-    border: solid;
-    border-color: whitesmoke;
-    width: 30em;
-    float: right;
-    margin-right: 27%;
-    background-color: #6B83A9;
-    border-radius: 1%;
-    height: 17em;
-    box-shadow: 0px 0px 15px #50627F, 0px 0px 15px #50627F; 
-  }
-
-  .portfolio{
-    border: solid;
-    border-color: whitesmoke;
-    width: 30em;
-    height: 16em;
-    float: right;
-    margin-left: 20%;
-    margin-right: 5%;
-    margin-top: 5%;
-    background-color: #6B83A9;
-    border-radius: 1%;
-    box-shadow: 0px 0px 15px #50627F, 0px 0px 15px #50627F; 
-  }
-
-  .blog h2 {
-      color:whitesmoke;
-      font-size: 35px;
-      padding-left: 25px;
-      padding-top: 15px;
-  }
-  
-  .blog p {
-    color: whitesmoke;
-    font-size: 20px;
-    padding-top: 5%;
-    padding-left: 25px;
-    padding-right: 25px;
-    text-align: justify;
-  }
-
-  .folio-content h2  {
-    font-size: 35px;
-    float: left;
-    color: whitesmoke;
-    padding-left: 25px;
-    padding-top: 15px;
-  }
-
-  .folio-content p {
-      font-size: 20px;
-      padding-top: 20%;
-      color: whitesmoke;
-      padding-top: 20%;
-      padding-left: 25px;
-      padding-right: 25px;
-  }
-
-  .folio-content button {
-    background-color: whitesmoke;
-    color: #6B83A9;
-    font-family: 'Vollkorn', serif;
-    border: transparent;
-    border-radius: 5%;
-    font-size: 20px;
-    padding: 5px;
-    float: right;
-    margin-right: 15%;
-    margin-top: 5%;
-  }
-
-  .blog-content button {
-    background-color: whitesmoke;
-    color: #6B83A9;
-    font-family: 'Vollkorn', serif;
-    border: transparent;
-    border-radius: 5%;
-    font-size: 20px;
-    padding: 5px;
-    padding-left: 8px;
-    padding-right:8px;
-    float: right;
-    margin-right: 15%;
-    margin-top: 5%;
-  }
-
-  footer{
-      background-color: var(--primary-color);
-      height:15em;
-  }
-
-  footer h3 {
-      font-family: 'Vollkorn', serif;
-      color: whitesmoke;
-      font-size: 30px;
-      margin-left: 44.5%;
-      padding-top: 60px;
-      letter-spacing: 2px;
-  }
-  
-  footer img {
-      background-color: #5786D3;
-  }
-
-  footer button {
-      border: transparent;
-      background-color: #5786D3;
-  }
-
-  a button img{
-      height: 40px;
-      width: 40px;
-      margin-right: 15px;
-      margin-left:15px;
-
-  }
-
-  .contact-buttons {
-      margin-left: 41.5%;
-      margin-top: 10px;
-  }
-
-  .contact-buttons a {
-      color: #5786D3;
-  }
-  
-  
-.contact-buttons button:hover {
-  transform: scale(1.2);
-  transition: all .4s ease;
+.button {
+  margin: 1em;
 }
-  
-@media screen and (max-width: 980px) {
-  .portfolio {
-    margin-left: 100px;
-    width: 50em; 
-  }
+/* Contact Me*/
 
-  .blog {
-    margin-right: 150px;
-    width: 50em;
-  }
+/* Footer */
 
-  .contact-info h3 {
-    display: flex;
-    justify-content: center;
-    margin: 0;
-
-  }
-
-  .contact-buttons {
-    display: flex;
-    justify-content: center;
-    margin: 0;
-  }
-
-  .intro {
-    margin-top: 5em;
-  }
-
-  .dropbtn {
-    margin-top: 3em;
-  }
-
-  #folio-page {
-    width: 50%;
-  }
-
-  .sarah-content p{
-    margin-left: -100px;
-  }
-
-  .folio-work.other-pages{
-    display:flex;
-    flex-wrap: wrap;
-    height: fit-content;
-  }
-
-  }
-
-
-  @media screen and (max-width: 750px) {
-    .second{
-      display: grid; 
-    }
-
-    .portfolio {
-      width: 30em;
-    }
-
-    .blog {
-      width: 30em;
-    }
-
-    .sarah {
-      display: grid;
-      justify-content: center;
-    }
-
-    #sarah-img {
-      float: left;
-      margin-left: 90px;
-    }
-
+.contact-logo, button {
+  background-color: #141527;
+  margin: 0, 100px, 0, 100px
 }
 
-@media screen and (max-width: 500px) {
-
-  header {
-    width: 30em;
-  }
-  .intro {
-    width: 20em;
-    height: 20em;
-    padding: 10px;
-  }
-
-  .intro h2 {
-    font-size: 25px;
-  }
-
-  .second {
-    width: 35em;
-  
-  }
-
-  .portfolio {
-    width: 25em;
-    margin-left: 0;
-  }
-
-  .blog {
-    margin-right: 10px;
-    width: 25em;
-  }
-
-  #folio-page {
-    height: 12em; 
-    width: fit-content;
-  }
-
-  .dropbtn {
-    margin-top: 10px;
-  }
-
-  .sarah-content {
-    padding-right: 100px;
-  }
+.contact-logo {
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
-@media screen and (max-width: 270px) {
-  header h1 {
-    font-size: 25px;
-  }
-
- .dropdown button {
-   font-size: 20px;
- }
-
- .intro {
-   width:12em;
-   height: 15em;
-   margin-left:-20em;
- }
-
- .intro h2{
-   font-size: 15px;
- }
-
- .intro span {
-   font-size: 15px;
- }
-
- .intro p {
-   font-size: 15px;
- }
-
- .dropdown {
-   height: 100px;
-   width: 150px;
-   margin-left: -80px;
- }
-
- .dropbtn {
-   margin-left: -170px;
- }
-
- .second {
-  display: grid;
-  align-items: center;
-  justify-content: start;
-  justify-items: center;
- }
-
- .portfolio {
-   width: 15em;
- }
-
- .portfolio h2 {
-   font-size: 25px;
- }
-
- .portfolio p {
-   font-size: 15px;
-   padding-top: 60px;
- }
-
- .folio-content button {
-   width: 5em;
-   height: 2em;
- }
-
- button a {
-   font-size: 15px;
- }
-
- .blog{
-   width:15em;
- }
-
- .blog h2 {
-   font-size: 25px;
- }
-
- .blog p {
-   font-size: 15px;
- }
-
- .contact-info h3{
-  font-size: 25px;
- }
-
- .contact-buttons a button img {
-   width:2em;
-   height: 2em;
- }
-
- #sarah-img {
-  height: 16em;
-  width: auto;
- }
-
- .sarah-content p {
-   font-size: 15px;
-   margin-left: -70px;
-   width: 15em;
- }
-
- .dropbtn {
-   margin-left: 30px;
-   font-size: 15px;
- }
-
- .blog-posts h1 {
-   font-size: 30px;
- }
-
- .blog-posts p {
-   font-size: 15px;
- }
-
- h1 a {
-   margin-left:-10px;
- }
-
- #folio-page {
-   width: auto;
- }
-
- .page-header h1{
-  font-size: 30px;
- }
-
- .page-header p {
-   font-size: 15px;;
- }
-
- .folio-work.other-pages {
-   display: grid;
-   width: 30em;
- }
- .folio-button{
-   width: inherit;
-   width: 20%;
-   height: auto;
- }
-
- .page-header {
-   width: 30em;
- }
-footer{
-  width: 30em;
+.socials-header {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-.contact-info{
-  display: flex;
-  justify-content: center;
-}
-.contact-info h3 {
-  font-size: 25px;
-}
- }
+
+
+/* Footer End */
