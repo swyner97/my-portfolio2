@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Lato&display=swap"
@@ -19,111 +19,114 @@
 
     <header class="hero section is-medium">
         <div class="is-flex  is-flex-direction-column is-align-items-center">
-            <h1 class="is-size-1 hero-header"> Hey! I'm <span>Sarah</span>, a full-stack developer <br> based in California </h1>
+            <h1 class="is-size-1 hero-header"> Hey! I'm <span>Sarah</span>, a full-stack developer <br> based in
+                California </h1>
             <div class="about-me">
                 <p>I have a BA in Philosophy from UC Santa Barbara.
                     Currently, I'm accepting freelance work to help out small businesses. Out of the office, you can
-                    find me with my dog, Pico and and knitting. Thanks for checking out my page :)</p>
+                    find me with my dog, Pico and knitting. Thanks for checking out my page :)</p>
             </div>
         </div>
     </header>
 
     <!-- portfolio links -->
-    <section class="projects section is-medium ">
+    <section class="projects section is-small ">
         <h2 class="is-size-1">Projects</h2>
         <figure id="for-st-cast" class="project">
-            <a href="https://tokhalyan.github.io/fore-st-cast/" target="_blank">
-                <img src="images/for-st-cast.png"
-                    alt="national park trip planner made with HTML, CSS, Javascript & Bulma CSS"></a>
-
-            <p class="is-size-5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
+            <div class="img-width">
+                <a href="https://tokhalyan.github.io/fore-st-cast/" target="_blank">
+                    <img src="images/for-st-cast.png"
+                        alt="national park trip planner made with HTML, CSS, Javascript & Bulma CSS"></a>
+            </div>
+            <div class="text-width">
+                <p class="is-size-5 project">
+                    Fore-st-cast is a web application where users can get information about different national parks
+                    depending on the state they choose. User will also get information about the weather in the chosen
+                    state
+                    and current information about COVID-19 Pandemic.
+                </p>
+            </div>
         </figure>
 
         <figure id="password-generator" class="project">
-
-            <a href="https://swyner97.github.io/password-generator/" target="_blank">
-                <img src="images/password-generator.png" alt="password-generator preview"></a>
-            <p class="is-size-5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.
-            </p>
+            <div class="img-width">
+                <a href="https://swyner97.github.io/password-generator/" target="_blank">
+                    <img src="images/password-generator.png" alt="password-generator preview"></a>
+            </div>
+            <div class="text-width">
+                <p class="is-size-5">
+                    A password random password generator that will generate a password based on the user's chosen
+                    criteria.
+                    This application features dynamically updated HTML and CSS powered by Javascript.
+                </p>
+            </div>
         </figure>
 
         <figure id="taskinator" class="project">
-
-            <a href="https://swyner97.github.io/taskinator/" target="_blank">
-                <img src="images/taskinator.png" alt="task organizer made with javascript"></a>
-            <p class="is-size-5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.
-            </p>
+            <div class="img-width">
+                <a href="https://swyner97.github.io/taskinator/" target="_blank">
+                    <img src="images/taskinator.png" alt="task organizer made with javascript"></a>
+            </div>
+            <div class="text-width">
+                <p class="is-size-5">
+                    A Kanban board type to-do list. The user can add, remove and edit tasks as well as set the status of
+                    the
+                    task whether it's a "to-do", "in-progress" or "completed." This application uses HTML, CSS class
+                    selectors and Web Storage API.
+                </p>
+            </div>
         </figure>
 
         <figure id="git-it-done" class="project">
-
-            <a href="https://swyner97.github.io/git-it-done/" target="_blank">
-                <img src="images/taskmaster-pro.png" alt="task organizer made with javascript and libraries"></a>
-            <p class="is-size-5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.
-            </p>
+            <div class="img-width">
+                <a href="https://swyner97.github.io/git-it-done/" target="_blank">
+                    <img src="images/taskmaster-pro.png" alt="task organizer made with javascript and libraries"></a>
+            </div>
+            <div class="text-width">
+                <p class="is-size-5">
+                    This application is similar to the taskinator, kanban board, to-do list application however this one
+                    utilizes Bootstrap and JQuery. Just like the Kanban board application, the user can add tasks,
+                    change
+                    the status and remove the tasks however, the user experience is much smoother since the tasks are
+                    draggable.
+                </p>
+            </div>
         </figure>
         <figure id="work-day-scheduler" class="project">
-
-            <a href="https://swyner97.github.io/work-day-scheduler/" target="_blank">
-                <img src="images/work-day-scheduler.png"
-                    alt="task organizer for the work day made with javascript and libraries"></a>
-            <p class="is-size-5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.
-            </p>
+            <div class="img-width">
+                <a href="https://swyner97.github.io/work-day-scheduler/" target="_blank">
+                    <img src="images/work-day-scheduler.png"
+                        alt="task organizer for the work day made with javascript and libraries"></a>
+            </div>
+            <div class="text-width">
+                <p class="is-size-5">
+                    A simple calendar application that allows the user to save events for each hour of the day. This
+                    application features dynamically updated HTML and CSS powered by jQuery. This application updated in
+                    real time using Moment.js; the appilcation updates every 30 minutes and as time goes on each time
+                    block
+                    changes its color code to indicate whether it is in the past, present or future.
+                </p>
+            </div>
         </figure>
+
         <figure class="project">
-            <a href="https://swyner97.github.io/run-buddy/" target="_blank">
-                <img src="images/run-buddy.png" alt="run-buddy preview">
-            </a>
-            <p class="is-size-5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.
-            </p>
-        </figure>
-        <figure id="horiseon" class="project">
-            <a href="https://swyner97.github.io/challenge01-horiseon/" target="_blank">
-                <img src="images/Horiseon.png" alt="Horiseon preview"></a>
-            <p class="is-size-5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.
-            </p>
-
+            <div class="img-width">
+                <a href="https://swyner97.github.io/run-buddy/" target="_blank">
+                    <img src="images/run-buddy.png" alt="run-buddy preview">
+                </a>
+            </div>
+            <div class="text-width">
+                <p class="is-size-5">
+                    An accessible webpage with basic HTML and CSS. This is the first webpage I ever built starting out
+                    on my
+                    software development journey. The most challenging lesson for me was flexbox and responsive design.
+                </p>
+            </div>
         </figure>
     </section>
 
     <!-- skillset & tools -->
-    <section class="skills section is-medium">
+    <section class="skills section is-small">
         <h2 class="is-size-1">Skills & Tools</h2>
         <div>
             <h3 class="skills-header">Front-End</h3>
@@ -146,29 +149,27 @@
 
     </section>
 
-    <!-- contact form -->
-    <!-- <section class="contact section is-small">
-        <h2 class="contact-header is-size-1"> Contact Me</h2> -->
-    <!-- Form -->
-    <!-- <div class="contact-form is-flex is-flex-direction-row">
-            <div class="form">
-                <form>
-                    <p>Name</p>
-                    <input type="text" class="input is-normal" placeholder="First Name">
-                    <input type="text" class="input is-normal" placeholder="Last Name">
-                    <p>E-mail Address</p>
-                    <input class="input" type="email" placeholder="E.g. 'john.smith@gmail.com'">
-                    <p>Message</p>
-                    <textarea class="fixed size textarea" placeholder="What's up?"></textarea>
-                    <button class="button">Submit</button>
-                </form>
-                <div>
-                    <img src="/images/sarah.jpg" class="sarah">
-                </div>
+    <!-- contact form  -->
+    <section class="contact section is-small">
+        <h2 class="contact-header is-size-1" style="text-align: center;"> Contact Me</h2>
+        <!-- Form -->
+        <div class="form is-flex is-justify-content-space-evenly is-align-items-center">
+            <form>
+                <p>Name</p>
+                <input type="text" class="input is-normal" placeholder="First Name">
+                <input type="text" class="input is-normal" placeholder="Last Name">
+                <p>E-mail Address</p>
+                <input class="input" type="email" placeholder="E.g. 'john.smith@gmail.com'">
+                <p>Message</p>
+                <textarea class="fixed size textarea" placeholder="What's up?"></textarea>
+                <button class="button">Submit</button>
+            </form>
+            <div class="sarah-container">
+                <img src="./images/Sarah.jpg" class="sarah">
             </div>
-
         </div>
-    </section> -->
+
+    </section>
 
     <!-- social links -->
     <footer class="socials">

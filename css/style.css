@@ -14,7 +14,7 @@
 
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1, h3, h4, h5, h6, p {
   color: white;
 }
 
@@ -24,6 +24,7 @@ h1 {
 
 h2 {
   font-family: 'Inconsolata', monospace;
+ color: rgb(238, 42, 140)
   
 }
 
@@ -46,14 +47,15 @@ p {
 }
 
 span {
-  color: rgb(216, 27, 122);
+  color: rgb(238, 42, 140);
   font-family: 'Inconsolata', monospace;
 }
 /* Header End */
 
 /* Projects Section */
-.projects {
-  
+.project p {
+  text-align: justify;
+  margin: 2em;
  
 }
 
@@ -61,11 +63,11 @@ span {
   border-radius: 5%;
   position: relative;
   right: 0;
+  width: 100%;
 }
 
 .project{
   display: flex;
-  justify-content:center;
   flex-direction: row-reverse;
   justify-content: space-evenly;
   padding: 10px;
@@ -76,15 +78,22 @@ span {
   padding: 40px;
 }
 
+.text-width {
+  max-width: 60em;
+ 
+}
 
+.img-width {
+  width: 40em;
+}
 
 /* Projects Section End */
 
 /* Skills */
+
 .skill-badge {
   padding: 2%;
 }
-
 
 
 img[title]:hover::after{
@@ -96,14 +105,9 @@ img[title]:hover::after{
 
 /* Contact Me*/
 
-.contact-logo, button {
-  background-color: #141527;
-
-}
-
-.form {
- padding: 2em;
- width: 30%;
+form {
+ margin: 50px;
+ padding: 50px;
 }
 
 .input, .textarea {
@@ -118,6 +122,15 @@ img[title]:hover::after{
 .button {
   margin: 1em;
 }
+
+.sarah {
+  max-width: 100%;
+  padding: 20px;
+}
+
+.sarah-container {
+  width: 35em;
+}
 /* Contact Me*/
 
 /* Footer */
@@ -128,10 +141,14 @@ img[title]:hover::after{
   width: 40%;
 }
 
+.contact-logo, button {
+  background-color: #141527;
+
+}
 .socials-header {
   text-align: center;
   margin-bottom: 20px;
-  color: rgb(216, 27, 122);
+  color: rgb(238, 42, 140);
   font-family: 'Inconsolata', monospace;
 }
 
