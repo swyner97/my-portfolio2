@@ -108,6 +108,7 @@ img[title]:hover::after{
 form {
  margin: 50px;
  padding: 50px;
+ width: 40%;
 }
 
 .input, .textarea {
